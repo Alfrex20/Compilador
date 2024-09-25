@@ -1,0 +1,11 @@
+color $rojo --> #AAAAAF;
+repetir(4){
+	atrás();
+	izquierda();
+	repetirMientras(lanzarMoneda()){
+		derecha();
+	}
+	izquierda();
+}
+numero $pasos --> 5;
+adelante();
